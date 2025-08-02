@@ -1,0 +1,105 @@
+import pandas as pd
+'''
+
+#print(pd.read_csv("employees.csv"))
+
+
+set1 = {1,2,3,4,5,6}
+set2 = {1,2,4,5,6,7}
+
+output = set1.intersection(set2)
+print(output)
+
+
+emp = "rakesh"
+series = list(emp)
+print(series)
+'''
+"""
+Write a function to check if list contains any duplicate element and return True or False as
+applicable
+def has_duplicates(lst):  # Define the function
+    seen = []             # An empty list to keep track of seen items
+    for item in lst:      # Loop through each item in the input list
+        if item in seen:  # If the item is already seen
+            return True   # Found a duplicate, so return True
+        seen.append(item) # Otherwise, remember this item
+    return False          # If no duplicates found, return False
+
+
+
+
+
+def method1(emp):
+    s1 = []
+    for i in emp:
+        if i in s1:
+         return True
+        print (i)
+        s1.append(i)
+        print(i)
+    return False
+
+emp = [1, 2, 3, 4, 5, 1, 3]
+print(method1(emp))
+
+
+# same with better aoproch
+def find_duplicates():
+    seen = set()
+    duplicates = set()
+
+    for i in emp:
+        if i in seen:
+            duplicates.add(i)   # collect duplicate
+        else:
+            seen.add(i)
+
+    if duplicates:
+        print("Duplicates found:", duplicates)
+        return True
+    else:
+        print("No duplicates found")
+        return False
+
+emp = [1, 2, 3, 4, 5,1,3]
+print(find_duplicates())
+
+
+List = [1,2,3,4,5,1,3]
+
+rows = {}
+
+for i in List:
+    if i in rows:
+        rows[i] += 1
+    else:
+        rows[i]=1
+
+print(rows)
+
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

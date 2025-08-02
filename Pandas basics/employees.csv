@@ -1,0 +1,21 @@
+EmployeeID,FirstName,LastName,Department,DeptNo,JobTitle,Salary,HireDate
+101,Michael,Wilson,Sales,10,Sales Manager,98396,2021-01-17
+102,Jane,Taylor,Finance,50,Financial Analyst,92116,2022-06-19
+103,Michael,Hall,Support,60,Customer Support,91359,2020-01-14
+104,Linda,Taylor,Finance,50,Financial Analyst,50229,2019-07-26
+105,Michael,Doe,Support,60,Customer Support,84321,2020-11-04
+106,Emily,Brown,Support,60,Customer Support,83619,2020-05-15
+107,Sarah,Jones,Finance,50,Accountant,86274,2021-11-19
+108,Peter,Davis,Finance,50,Accountant,52380,2018-09-25
+109,Michael,Jones,Finance,50,Financial Analyst,88608,2021-08-06
+110,Karen,Brown,Finance,50,Accountant,70811,2019-10-22
+111,Peter,Doe,HR,40,Recruiter,90803,2022-05-03
+112,Robert,Davis,Engineering,30,Software Engineer,92989,2021-08-27
+113,John,Moore,Engineering,30,Systems Analyst,62000,2023-12-22
+114,Linda,Hall,Marketing,20,Marketing Coordinator,79333,2019-07-05
+115,Peter,Jones,Sales,10,Sales Executive,87627,2019-07-09
+116,Emily,Jones,Engineering,30,Software Engineer,53196,2021-03-22
+117,John,Jones,Sales,10,Sales Manager,74212,2020-10-22
+118,Peter,Smith,Support,60,Customer Support,99157,2021-02-17
+119,David,Brown,Marketing,20,Marketing Coordinator,74429,2021-03-04
+120,David,Doe,Finance,50,Financial Analyst,68177,2019-06-07
