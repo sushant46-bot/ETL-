@@ -1,3 +1,5 @@
+from operator import truediv
+
 import pandas as pd
 '''
 
@@ -79,19 +81,46 @@ for i in List:
 print(rows)
 
 
+
+
+
+
+
+
+
+N = int(input("Enter the Number"))
+list1 =[]
+for j in range(2,N): #(N**0.05)
+ is_prime = True
+ for k in range(2, int(j**0.5) + 1):  #
+     if j % k ==0:
+        is_prime = False
+        break
+ if is_prime:
+     list1.append(j)
+print(list1)
+
+
+
+actuallist = [1,2,3,3,4,4,5]
+duplist = []
+uniqlist = []
+def duplicatelist(actuallist):
+
+ for  i in actuallist():
+    if i in uniqlist:
+        duplist.append(i)
+    else:
+        uniqlist.append(i)
 """
 
 
 
-
-
-
-
-
-
-
-
-
+actual = [1,2,3,4,5]
+add = 0
+for i in actual:
+     add += i
+print(add)
 
 
 
