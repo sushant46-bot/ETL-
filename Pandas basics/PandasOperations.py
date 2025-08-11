@@ -1,6 +1,11 @@
 from operator import truediv
 
 import pandas as pd
+from decorator import append
+from sqlalchemy import false
+from sqlalchemy.util.typing import is_origin_of
+from win32con import DISPLAY_DEVICE_PRIMARY_DEVICE
+
 '''
 
 #print(pd.read_csv("employees.csv"))
@@ -112,7 +117,7 @@ def duplicatelist(actuallist):
         duplist.append(i)
     else:
         uniqlist.append(i)
-"""
+
 
 
 
@@ -127,8 +132,84 @@ print(add)
 
 
 
+n = int(input("input the number: "))
+list1=[]
+
+for i in range(2,n):
+    is_prime = True
+
+    for j in range(2, int(i**0.5)+1):
+        if i % j == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        list1.append(i)
+
+print(list1)
+
+n = int(input("Enter Number Here:"))
+prime_list = []
+
+for i in range(2,n):
+    is_prime = True
+    for j in range(2,int(i**0.5)+1):
+        if   i % j ==0:
+            is_prime = False
+            break
+
+    if is_prime:
+        prime_list.append(i)
+
+print(prime_list)
+
+
+
+n= int(input("input Number Here:"))
+Prime_number = []
+
+
+for i in range(2,n):
+    is_prime = True
+    for j in range(2,int(i**0.5)+1):
+        if i % j ==0:
+            is_prime = False
+            break
+    if is_prime:
+        Prime_number.append(i)
+print(Prime_number)
+
+
+
+x=int(input("Enter the number here:"))
+prime_num = []
+
+for i in range(2,x):
+       is_prime = True
+       for j in range  (2,int(i**0.5)+1):
+           if i % j ==0:
+               is_prime = False
+               break
+       if is_prime:
+        prime_num.append(i)
+print(prime_num)
 
 
 
 
+x= int(input("Enter Number here: "))
+prime_num = []
+is_prime = True
 
+if x<=1:
+    is_prime = false
+else:
+      for j in range  (2,int(x**0.5)+1):
+           if x % j ==0:
+               is_prime = False
+               break
+print(is_prime)
+
+
+
+"""

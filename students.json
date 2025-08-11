@@ -1,0 +1,25 @@
+[
+
+    {"empno": 101, "name": "Rakesh Zungare", "department": "IT", "salary": 55000},
+
+    {"empno": 102, "name": "Amit Sharma", "department": "Finance", "salary": 60000},
+
+    {"empno": 103, "name": "Priya Singh", "department": "HR", "salary": 50000},
+
+    {"empno": 104, "name": "Neha Verma", "department": "Marketing", "salary": 52000},
+
+    {"empno": 105, "name": "Ankit Mehta", "department": "IT", "salary": 58000},
+
+    {"empno": 106, "name": "Kavita Nair", "department": "Operations", "salary": 49000},
+
+    {"empno": 107, "name": "Rajesh Kumar", "department": "Finance", "salary": 61000},
+
+    {"empno": 108, "name": "Sneha Iyer", "department": "IT", "salary": 57000},
+
+    {"empno": 109, "name": "Vikas Patel", "department": "HR", "salary": 53000},
+
+    {"empno": 110, "name": "Pooja Desai", "department": "Marketing", "salary": 54000}
+
+]
+
+ 

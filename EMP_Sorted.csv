@@ -1,0 +1,11 @@
+EmployeeID,FirstName,LastName,Gender,Age,Department,JobTitle,Salary,JoinDate
+101,Amit,Sharma,Male,29,Sales,Sales Executive,55000,2019-06-12
+102,Neha,Verma,Female,34,HR,HR Manager,72000,
+103,Raj,Kapoor,Male,41,Finance,Accountant,,2017-11-03
+104,Anjali,Mehta,Female,27,IT,Software Developer,70000,2021-07-19
+105,Rohit,Desai,Male,32,Marketing,Marketing Analyst,61000,2020-09-10
+106,Priya,Patel,,30,Sales,Sales Manager,75000,2016-05-08
+107,Karan,Malhotra,Male,26,IT,Web Developer,68000,2022-01-15
+108,Sneha,Dubey,Female,28,Finance,Financial Analyst,67000,2020-12-01
+109,,Chopra,Male,45,Operations,Operations Head,90000,2015-04-20
+110,Meera,Jain,Female,31,,HR Executive,58000,
